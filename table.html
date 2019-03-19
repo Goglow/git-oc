@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="stylesheet" href="page.css" />
-		<title>Titre de notre page</title>
+		<link rel="stylesheet" href="table.css" />
+		<title>Les tableaux</title>
 	</head>
-
 	<body>
 		<header>Je suis l'entête</header>
-    <table>
-   <tr>
-    <td>Carlos</td>
-    <td>35 ans</td>
-    <td>Guatemala</td>
-   </tr>
-   <tr>
-    <td>Laura</td>
-    <td>42 ans</td>
-    <td>Chine</td>
-   </tr>
-    </table>
+		<table>
+			<caption>Passagers du vol 810</caption>
+			<thead>
+			<tr>
+				<th>Prénom</th>
+				<th>Age</th>
+				<th>Pays</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>Carlos</td>
+				<td>35 ans</td>
+				<td>Guatemala</td>
+			</tr>
+			</tbody>
+			<tr>
+				<td>Laura</td>
+				<td>42 ans</td>
+				<td>Chine</td>
+			</tr>
+			<tfoot>
+			<tr>
+				<td>Pied de tableau 1</td>
+				<td colspan="2">Pied de tableau 2</td> <!--Fusion (colspan/rowspan)-->
+			</tr>
+			</tfoot>
+		</table>
 		<footer>Tous droits réservés - 2019 - Goglow</footer>
 	</body>
-
 </html>
