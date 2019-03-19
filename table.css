@@ -5,5 +5,9 @@ td
 
 table
 {
-  border-collapse : collapse;
+  border-collapse: collapse; /* Bordures du tableau collées (collapse) ou séparées (separate) */
 }
+  
+caption 
+{
+  caption-side: top; /* Top or bottom */
